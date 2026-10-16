@@ -1,0 +1,17 @@
+	value
+genes_compared	5013
+basemean_pearson	1
+lfc_pearson	0.978
+lfc_max_abs_diff	3.0364
+lfc_pearson_tested_genes	0.99013
+lfc_magnitude_ratio_ref_over_ours	0.838
+neglog10p_spearman	0.99996
+padj_na_ours	240
+padj_na_reference	45
+significant_ours	216
+significant_reference	205
+significant_both	204
+jaccard	0.9401
+sign_agreement_pct	100
+size_factor_max_abs_diff_vs_pydeseq2	0
+normalized_counts_max_rel_diff_vs_galaxy	6.13084e-15

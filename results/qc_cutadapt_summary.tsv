@@ -1,0 +1,5 @@
+sample	layout	reads_or_pairs	adapter	quality_cutoff	min_length	pct_with_adapter	pct_too_short	pct_reads_kept	pct_bp_quality_trimmed	pct_bp_kept
+BR-Tn1	single	5190		20	22		0.13	99.87	4.3	95.67
+Rough_SCFM_3	single	1000000	AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC	20	22	76.5	21.15	78.85	3.74	51.51
+SRR10828193	paired	607820		20	22		0.28	99.72	2.56	97.3
+SRR29263899	paired	1437637		20	22		0.06	99.94	0.7	99.27

@@ -1,0 +1,7 @@
+count	galaxy_cutadapt	this_repo	match
+reads_processed	5190	5190	True
+too_short	7	7	True
+written	5183	5183	True
+bp_processed	404820	404820	True
+bp_quality_trimmed	17416	17416	True
+bp_written	387289	387289	True

@@ -1,0 +1,176 @@
+{
+  "qc": {
+    "trim_matches_cutadapt": true,
+    "cutadapt_version": "5.1",
+    "raw": {
+      "reads": 5190,
+      "bases": 404820,
+      "min_length": 78,
+      "max_length": 78,
+      "gc_percent": 46.51,
+      "n_bases": 18,
+      "mean_quality": 25.5,
+      "pct_reads_meanQ_ge_20": 99.31
+    },
+    "trimmed": {
+      "reads": 5183,
+      "bases": 387289,
+      "min_length": 22,
+      "max_length": 78,
+      "gc_percent": 46.89,
+      "n_bases": 18,
+      "mean_quality": 25.91,
+      "pct_reads_meanQ_ge_20": 99.56
+    },
+    "fastqc_reads": 5190,
+    "fastqc_gc": 46,
+    "fastqc_max_mean_quality_diff": 0.0,
+    "figure": "qc_per_base_quality"
+  },
+  "assembly": {
+    "ref_min": 6317050,
+    "ref_max": 7345639,
+    "ref_n": 5,
+    "figure": "assembly_nx_curves"
+  },
+  "annotation": {
+    "mrsa": [
+      "MRSA107",
+      "M48",
+      "0073_III_ST239",
+      "HU-14",
+      "Activity 6 genome (BV-BRC)"
+    ],
+    "mssa": [
+      "NCTC 8325",
+      "FDAARGOS_773"
+    ],
+    "figure": "annotation_markers"
+  },
+  "pangenome": {
+    "n_clusters": 5938,
+    "n_genomes": 5,
+    "accessory": 64,
+    "isolate_dist_range": [
+      0.1923076923076923,
+      0.5454545454545454
+    ],
+    "reference_dist_min": 0.8727272727272728,
+    "figures": [
+      "pangenome_rarefaction",
+      "pangenome_accessory"
+    ]
+  },
+  "rnaseq": {
+    "mabs": {
+      "title": "M. abscessus ATCC 19977: condition vs wild-type rough",
+      "concordance": {
+        "genes_compared": 5013,
+        "basemean_pearson": 1.0,
+        "lfc_pearson": 0.978,
+        "lfc_max_abs_diff": 3.0364,
+        "lfc_pearson_tested_genes": 0.99013,
+        "lfc_magnitude_ratio_ref_over_ours": 0.838,
+        "neglog10p_spearman": 0.99996,
+        "padj_na_ours": 240,
+        "padj_na_reference": 45,
+        "significant_ours": 216,
+        "significant_reference": 205,
+        "significant_both": 204,
+        "jaccard": 0.9401,
+        "sign_agreement_pct": 100.0,
+        "size_factor_max_abs_diff_vs_pydeseq2": 0.0,
+        "normalized_counts_max_rel_diff_vs_galaxy": 6.130842565550505e-15
+      },
+      "direction": {
+        "up": 145,
+        "down": 71
+      },
+      "pca_explained": [
+        0.49826,
+        0.397656
+      ],
+      "figures": [
+        "rnaseq_mabs_volcano",
+        "rnaseq_mabs_concordance",
+        "rnaseq_mabs_pca"
+      ],
+      "reference": "WT_rough",
+      "test": "condition"
+    },
+    "mtb": {
+      "title": "M. tuberculosis H37Rv: experimental vs control",
+      "concordance": {
+        "genes_compared": 3978,
+        "basemean_pearson": 1.0,
+        "lfc_pearson": 0.99789,
+        "lfc_max_abs_diff": 0.7606,
+        "lfc_pearson_tested_genes": 0.99789,
+        "lfc_magnitude_ratio_ref_over_ours": 0.984,
+        "neglog10p_spearman": 0.99995,
+        "padj_na_ours": 10,
+        "padj_na_reference": 10,
+        "significant_ours": 125,
+        "significant_reference": 114,
+        "significant_both": 114,
+        "jaccard": 0.912,
+        "sign_agreement_pct": 100.0,
+        "size_factor_max_abs_diff_vs_pydeseq2": 0.0
+      },
+      "direction": {
+        "up": 109,
+        "down": 16
+      },
+      "pca_explained": [
+        0.895439,
+        0.055828
+      ],
+      "figures": [
+        "rnaseq_mtb_volcano",
+        "rnaseq_mtb_concordance",
+        "rnaseq_mtb_pca"
+      ],
+      "reference": "control",
+      "test": "experimental"
+    }
+  },
+  "structure": {
+    "af3_bands": {
+      "very_high": 0.6308,
+      "confident": 0.3077,
+      "low": 0.0077,
+      "very_low": 0.0538,
+      "mean_plddt": 88.75
+    },
+    "af3_len": 130,
+    "pae_mean": 5.89,
+    "homolog": {
+      "modelled_a": 216,
+      "modelled_b": 217,
+      "aligned_pairs": 216,
+      "identity_pct": 70.4,
+      "substitutions": 64,
+      "deletions": 0,
+      "rmsd_all_ca": 14.38,
+      "rmsd_core_ca": 0.61,
+      "core_pairs": 132,
+      "rmsd_ca_plddt70": 13.41,
+      "pairs_plddt70": 168
+    },
+    "spike": {
+      "modelled_a": 972,
+      "modelled_b": 1026,
+      "aligned_pairs": 956,
+      "identity_pct": 96.9,
+      "substitutions": 30,
+      "deletions": 9,
+      "rmsd_all_ca": 1.68,
+      "rmsd_core_ca": 0.94,
+      "core_pairs": 759
+    },
+    "figures": [
+      "structure_af3_confidence",
+      "structure_dosr_plddt"
+    ]
+  }
+}

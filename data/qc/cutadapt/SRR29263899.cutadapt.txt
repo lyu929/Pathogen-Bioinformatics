@@ -1,0 +1,21 @@
+This is cutadapt 5.1 with Python 3.12.10
+Command line parameters: -j=7 --error-rate=0.1 --times=1 --overlap=3 --action=trim --quality-cutoff=20 --minimum-length=22 -o out1.fq.gz -p out2.fq.gz SRR29263899_forward.fq.gz SRR29263899_reverse.fq.gz
+Processing paired-end reads on 7 cores ...
+
+=== Summary ===
+
+Total read pairs processed:          1,437,637
+
+== Read fate breakdown ==
+Pairs that were too short:                 832 (0.1%)
+Pairs written (passing filters):     1,436,805 (99.9%)
+
+Total basepairs processed:   399,167,158 bp
+  Read 1:   199,656,844 bp
+  Read 2:   199,510,314 bp
+Quality-trimmed:               2,791,144 bp (0.7%)
+  Read 1:     1,313,092 bp
+  Read 2:     1,478,052 bp
+Total written (filtered):    396,253,452 bp (99.3%)
+  Read 1:   198,241,089 bp
+  Read 2:   198,012,363 bp

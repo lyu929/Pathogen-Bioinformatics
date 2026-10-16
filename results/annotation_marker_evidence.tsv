@@ -1,0 +1,56 @@
+genome	marker	locus	symbol	product
+NCTC 8325	chp	SAOUHSC_02169		chemotaxis-inhibiting protein CHIPS
+NCTC 8325	sak	SAOUHSC_02171		staphylokinase
+MRSA107	mecI	BTN44_RS00135	mecI	mecA-type methicillin resistance repressor MecI
+MRSA107	mecR1	BTN44_RS00140	mecR1	beta-lactam sensor/signal transducer MecR1
+MRSA107	mecA (PBP2a)	BTN44_RS00145	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA
+MRSA107	ccrA/ccrB	BTN44_RS00350	ccrB	cassette chromosome recombinase CcrB
+MRSA107	ccrA/ccrB	BTN44_RS00355	ccrA	cassette chromosome recombinase CcrA
+MRSA107	sea	BTN44_RS01940	sea	staphylococcal enterotoxin type A
+MRSA107	sak	BTN44_RS01965	sak	staphylokinase
+MRSA107	scn	BTN44_RS01985	scn	complement inhibitor SCIN-A
+MRSA107	blaZ	BTN44_RS15550		BlaZ family penicillin-hydrolyzing class A beta-lactamase PC1
+MRSA107	icaA	BTN44_RS16085	icaA	poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA
+MRSA107	ccrC	BTN44_RS16310	ccrC	cassette chromosome recombinase CcrC
+M48	mecA (PBP2a)	C2G36_RS00175	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA
+M48	mecR1	C2G36_RS00180	mecR1	beta-lactam sensor/signal transducer MecR1
+M48	mecI	C2G36_RS00185	mecI	mecA-type methicillin resistance repressor MecI
+M48	ccrA/ccrB	C2G36_RS00290	ccrB	cassette chromosome recombinase CcrB
+M48	ccrA/ccrB	C2G36_RS00295	ccrA	cassette chromosome recombinase CcrA
+M48	scn	C2G36_RS11150	scn	complement inhibitor SCIN-A
+M48	sak	C2G36_RS11170	sak	staphylokinase
+M48	sea	C2G36_RS11195	sea	staphylococcal enterotoxin type A
+M48	blaZ	C2G36_RS15460		BlaZ family penicillin-hydrolyzing class A beta-lactamase PC1
+M48	icaA	C2G36_RS16000	icaA	poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA
+M48	cna	C2G36_RS16130	cna	collagen adhesin Cna
+FDAARGOS_773	icaA	FIU14_RS08810	icaA	poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA
+0073_III_ST239	scn	LUY99_RS04665	scn	complement inhibitor SCIN-A
+0073_III_ST239	sak	LUY99_RS04675	sak	staphylokinase
+0073_III_ST239	sea	LUY99_RS04700	sea	staphylococcal enterotoxin type A
+0073_III_ST239	blaZ	LUY99_RS08790		BlaZ family penicillin-hydrolyzing class A beta-lactamase PC1
+0073_III_ST239	icaA	LUY99_RS09310	icaA	poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA
+0073_III_ST239	ccrC	LUY99_RS09720	ccrC	cassette chromosome recombinase CcrC
+0073_III_ST239	mecA (PBP2a)	LUY99_RS09930	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA
+0073_III_ST239	mecR1	LUY99_RS09935	mecR1	beta-lactam sensor/signal transducer MecR1
+0073_III_ST239	mecI	LUY99_RS09940	mecI	mecA-type methicillin resistance repressor MecI
+0073_III_ST239	ccrA/ccrB	LUY99_RS10025	ccrB	cassette chromosome recombinase CcrB
+0073_III_ST239	ccrA/ccrB	LUY99_RS10030	ccrA	cassette chromosome recombinase CcrA
+HU-14	sak	BKMNNEJI_RS00120	sak	staphylokinase
+HU-14	chp	BKMNNEJI_RS00130		chemotaxis-inhibiting protein CHIPS
+HU-14	scn	BKMNNEJI_RS00140	scn	complement inhibitor SCIN-A
+HU-14	ccrA/ccrB	BKMNNEJI_RS10555	ccrA	cassette chromosome recombinase CcrA
+HU-14	ccrA/ccrB	BKMNNEJI_RS10560	ccrB	cassette chromosome recombinase CcrB
+HU-14	mecR1	BKMNNEJI_RS10590		beta-lactam sensor/signal transducer MecR1
+HU-14	mecA (PBP2a)	BKMNNEJI_RS10595	mecA	PBP2a family beta-lactam-resistant peptidoglycan transpeptidase MecA
+HU-14	icaA	BKMNNEJI_RS10990	icaA	poly-beta-1,6 N-acetyl-D-glucosamine synthase IcaA
+Activity 6 genome (BV-BRC)	mecA (PBP2a)	fig|1280.61098.peg.32		Penicillin-binding protein PBP2a, methicillin resistance determinant MecA, transpeptidase
+Activity 6 genome (BV-BRC)	mecR1	fig|1280.61098.peg.33		Methicillin resistance regulatory sensor-transducer MecR1
+Activity 6 genome (BV-BRC)	ccrA/ccrB	fig|1280.61098.peg.41		Cassette chromosome recombinase A
+Activity 6 genome (BV-BRC)	seb	fig|1280.61098.peg.767		Exotoxin, phage associated @ Superantigen enterotoxin SEB
+Activity 6 genome (BV-BRC)	PVL (lukS/F-PV)	fig|1280.61098.peg.1386		Panton-Valentine leukocidin chain F precursor
+Activity 6 genome (BV-BRC)	PVL (lukS/F-PV)	fig|1280.61098.peg.1387		Panton-Valentine leukocidin chain S precursor
+Activity 6 genome (BV-BRC)	sak	fig|1280.61098.peg.1886		Staphylokinase
+Activity 6 genome (BV-BRC)	sea	fig|1280.61098.peg.1890		Exotoxin, phage associated @ Superantigen enterotoxin SEA
+Activity 6 genome (BV-BRC)	PVL (lukS/F-PV)	fig|1280.61098.peg.1942		Cytolytic pore-forming protein F component > Leukocidin LukF-PV
+Activity 6 genome (BV-BRC)	PVL (lukS/F-PV)	fig|1280.61098.peg.1943		Cytolytic pore-forming protein S component > Leukocidin LukS-PV
+Activity 6 genome (BV-BRC)	icaA	fig|1280.61098.peg.2571		Polysaccharide intercellular adhesin (PIA) biosynthesis N-glycosyltransferase IcaA (EC 2.4.-.-)

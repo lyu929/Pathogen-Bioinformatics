@@ -1,0 +1,15 @@
+This is cutadapt 5.1 with Python 3.12.10
+Command line parameters: -j=7 --error-rate=0.1 --times=1 --overlap=3 --action=trim --quality-cutoff=20 --minimum-length=22 -o out1.fq.gz BR-Tn1_S4_L001_R1_001_fastq_gz.fq.gz
+Processing single-end reads on 7 cores ...
+
+=== Summary ===
+
+Total reads processed:                   5,190
+
+== Read fate breakdown ==
+Reads that were too short:                   7 (0.1%)
+Reads written (passing filters):         5,183 (99.9%)
+
+Total basepairs processed:       404,820 bp
+Quality-trimmed:                  17,416 bp (4.3%)
+Total written (filtered):        387,289 bp (95.7%)

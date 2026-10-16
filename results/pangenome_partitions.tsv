@@ -1,0 +1,6 @@
+partition	clusters	pct
+core	5874	98.92
+soft_core	0	0
+shell	64	1.08
+cloud	0	0
+total	5938	100

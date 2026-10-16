@@ -1,0 +1,3 @@
+body	pairs	rmsd_ca	first_residue	last_residue	median_residue
+1	132	0.61	1	133	66
+2	68	0.46	144	211	177

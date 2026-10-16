@@ -1,0 +1,6 @@
+model	ranking_score	ptm	iptm	fraction_disordered	has_clash	num_recycles
+0	0.81	0.75		0.12	False	10
+1	0.79	0.75		0.07	False	10
+2	0.77	0.75		0.05	False	10
+3	0.77	0.75		0.03	False	10
+4	0.77	0.75		0.04	False	10

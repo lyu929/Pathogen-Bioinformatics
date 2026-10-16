@@ -1,0 +1,76 @@
+# Pipeline configuration for the BIOL 4640 (Fall 2025) course datasets.
+# Paths are relative to the repository root. See data/README.md for provenance.
+
+[output]
+results = "results"   # TSV/JSON tables
+report = "reports"    # REPORT.md + figures/{light,dark}/*.png
+
+[thresholds]
+alpha = 0.05          # BH-adjusted p-value cutoff for differential expression
+min_abs_lfc = 1.0     # |log2 fold change| cutoff
+
+[qc]
+fastq = "data/qc/reads/BR-Tn1_S4_L001_R1_001.fastq.gz"
+fastqc_of_fastq = "data/qc/fastqc/BR-Tn1_R1.fastqc_data.txt.gz"
+cutadapt_of_fastq = "data/qc/cutadapt/BR-Tn1.cutadapt.txt"
+fastqc_dir = "data/qc/fastqc"
+cutadapt_dir = "data/qc/cutadapt"
+quality_cutoff = 20   # cutadapt --quality-cutoff used in Galaxy
+min_length = 22       # cutadapt --minimum-length used in Galaxy
+
+[assembly]
+isolates_dir = "data/assembly/pseudomonas_aeruginosa"
+reference_genomes = "data/assembly/pseudomonas_aeruginosa/reference_genomes.tsv"
+min_contig = 500
+other = [
+  "data/assembly/staphylococcus_aureus/activity6_genome.fasta.gz",
+  "data/assembly/outbreak_sample/outbreak_sample.shovill_skesa.fasta.gz",
+]
+
+[annotation]
+refseq_dir = "data/annotation/staphylococcus_aureus/refseq"
+strains = "data/annotation/staphylococcus_aureus/refseq/strains.tsv"
+bvbrc_gff = "data/annotation/staphylococcus_aureus/bvbrc/activity6_genome.bvbrc.gff.gz"
+bvbrc_genome = "data/assembly/staphylococcus_aureus/activity6_genome.fasta.gz"
+bvbrc_label = "Activity 6 genome (BV-BRC)"
+
+[pangenome]
+roary = "data/pangenome/roary_gene_presence_absence.csv.gz"
+permutations = 500
+seed = 1
+
+[[rnaseq]]
+name = "mabs"
+title = "M. abscessus ATCC 19977: condition vs wild-type rough"
+counts_dir = "data/rnaseq/mabs/counts"
+samples = "data/rnaseq/mabs/samples.tsv"
+annotation = "data/rnaseq/mabs/GCF_000069185.1.gff.gz"
+galaxy_results = "data/rnaseq/mabs/galaxy_deseq2_results.tsv"
+galaxy_normalized = "data/rnaseq/mabs/galaxy_normalized_counts.tsv"
+factor = "condition"
+reference = "WT_rough"
+test = "condition"
+
+[[rnaseq]]
+name = "mtb"
+title = "M. tuberculosis H37Rv: experimental vs control"
+counts_dir = "data/rnaseq/mtb/counts"
+samples = "data/rnaseq/mtb/samples.tsv"
+annotation = "data/rnaseq/mtb/GCF_000195955.2.gff.gz"
+galaxy_results = "data/rnaseq/mtb/galaxy_deseq2_results.tsv"
+factor = "condition"
+reference = "control"
+test = "experimental"
+
+[structure]
+af3_dir = "data/structure/alphafold3_zur_Rv2359"
+af3_label = "Zur / FurB (Rv2359), AlphaFold 3"
+homolog_a = "data/structure/afdb/AF-B1MH84-F1-model_v6.pdb"
+homolog_a_label = "M. abscessus LuxR-family regulator (B1MH84)"
+homolog_b = "data/structure/afdb/AF-P9WMF9-F1-model_v6.pdb"
+homolog_b_label = "M. tuberculosis DevR/DosR (P9WMF9)"
+spike_a = "data/structure/pdb/6vxx.pdb.gz"
+spike_a_label = "6VXX (Wuhan-Hu-1 spike, closed)"
+spike_b = "data/structure/pdb/9f9y.pdb.gz"
+spike_b_label = "9F9Y (BA.2.87.1 spike)"
+spike_chain = "A"

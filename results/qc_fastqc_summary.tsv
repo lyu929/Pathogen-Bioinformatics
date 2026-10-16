@@ -1,0 +1,7 @@
+sample	total_sequences	sequence_length	gc_percent	Per base sequence quality	Per tile sequence quality	Per sequence quality scores	Per base sequence content	Per sequence GC content	Per base N content	Sequence Length Distribution	Sequence Duplication Levels	Overrepresented sequences	Adapter Content	failed_modules
+BR-Tn1_R1	5190	78	46	FAIL	WARN	WARN	FAIL	FAIL	PASS	PASS	PASS	FAIL	FAIL	Per base sequence quality, Per base sequence content, Per sequence GC content, Overrepresented sequences, Adapter Content
+EN59_R1	1479825	35-149	50	PASS	PASS	PASS	FAIL	FAIL	PASS	WARN	PASS	PASS	PASS	Per base sequence content, Per sequence GC content
+EN59_R2	1479825	35-149	50	PASS	PASS	PASS	FAIL	FAIL	PASS	WARN	PASS	PASS	PASS	Per base sequence content, Per sequence GC content
+SRR10828193_R1	607820	35-251	65	PASS		PASS	WARN	PASS	PASS	WARN	PASS	PASS	PASS	
+SRR29263899_R1	1437637	35-149	63	PASS	PASS	PASS	FAIL	PASS	PASS	WARN	PASS	PASS	PASS	Per base sequence content
+activity3_reverse	6587331	151	63	PASS		PASS	WARN	PASS	PASS	PASS	PASS	PASS	PASS	

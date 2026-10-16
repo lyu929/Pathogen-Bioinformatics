@@ -1,0 +1,3 @@
+name	contigs	contigs_ge_1kb	total_length	largest_contig	n50	l50	n90	l90	gc_percent	n_per_100kb	mean_coverage	ng50
+activity6_genome	1	1	2820462	2820462	2820462	1	2820462	1	32.83	0		
+outbreak_sample	42	37	4972383	536032	324586	6	75056	19	52.05	0	60.5	
