@@ -1,4 +1,4 @@
-# BIOL 4640 · Pathogen Bioinformatics
+# Pathogen Bioinformatics
 
 [![CI](https://github.com/lyu929/Pathogen-Bioinformatics/actions/workflows/ci.yml/badge.svg)](https://github.com/lyu929/Pathogen-Bioinformatics/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%E2%80%933.13-blue)
